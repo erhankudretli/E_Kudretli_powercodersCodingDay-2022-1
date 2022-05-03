@@ -117,7 +117,6 @@ picture {
       padding-right: 0vw;
       padding-left: 0vw;
 
-      grid-template-areas: '. aside . fig-2 fig-2' 'title title banner banner banner' 'fig-1 main banner banner banner';
       grid-template-rows: repeat(3 , auto);
       grid-template-columns: repeat(5 , 1fr);
     }

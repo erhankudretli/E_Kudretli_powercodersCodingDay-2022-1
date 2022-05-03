@@ -4,6 +4,7 @@ h1 {
 }
 
 .robots {
+	
 }
 
 .head, 
@@ -24,7 +25,7 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .upper_body { 
@@ -54,10 +55,12 @@ h1 {
 } 
 
 .lower_body { 
+	display: flex;
+
 	width: 200px; 
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
-	margin: 0 auto;
+	margin: 4rem auto;
 
 } 
 
@@ -104,6 +107,11 @@ h1 {
 	left: 120px; 
 }
 
+.android{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 

@@ -1,0 +1,15 @@
+main{
+    display: flex;
+}
+
+
+#register{
+    border: 2px solid green;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+    border: 2px solid green;
+}
